@@ -1,0 +1,65 @@
+/* Estilos adicionais para a página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Define o fundo preto para a página inteira */
+    background-image: url('../img/d9jom52-a7e24261-fbb6-4933-aa4d-4990da209838.gif');
+    background-size: contain; /* Redimensiona a imagem para caber dentro do body */
+    background-position: 50% 50%; /* Centraliza o background na vertical e na horizontal */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    color: #fff; /* Define a cor do texto para que seja visível na imagem de fundo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto para melhorar a legibilidade */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para legibilidade do texto */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+    animation: pulse 2s infinite alternate; /* Animação de pulsação */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #27ae60;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
